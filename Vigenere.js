@@ -27,7 +27,7 @@ function vigenereDecrypt(ciphertext, key) {
 }
 
 // Main function to run the Vigenère cipher
-function run() {
+function Run() {
     const readline = require('readline');
     const rl = readline.createInterface({
         input: process.stdin,
@@ -53,4 +53,4 @@ function run() {
 }
 
 // Run the program
-run();
+Run();
